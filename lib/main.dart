@@ -3,6 +3,7 @@ import 'package:flutter/material.dart';
 void main() {
   runApp(MaterialApp(
     theme: ThemeData(primarySwatch: Colors.blue, brightness: Brightness.dark),
+    debugShowCheckedModeBanner: false,
     home: FlightsStepper(),
   ));
 }
